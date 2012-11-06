@@ -99,8 +99,6 @@ module Rich
       :hidden_input => self.hidden_input
     }
     editor_options = self.editor.merge(base)
-
-    editor_options[:type] = :image
     
     # merge in local overrides
     editor_options.merge!(overrides) if overrides
