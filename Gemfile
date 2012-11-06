@@ -16,14 +16,13 @@ gemspec
 #gem 'jquery-rails'
 #gem 'sass-rails'
 
-
 # Development: Formtastic
-#gem 'formtastic'
+#gem 'formtastic', :group => :development
 
 # Development: AA
-#gem 'activeadmin', :git => 'https://github.com/gregbell/active_admin.git', :branch => '0.3.x-stable'
-#gem 'activeadmin', :git => 'https://github.com/gregbell/active_admin.git', :branch => 'master'
-#gem "meta_search",    '>= 1.1.0.pre'
-#gem 'inherited_resources'
-#gem 'uglifier'
+#gem 'activeadmin', :git => 'https://github.com/gregbell/active_admin.git', :branch => '0.3.x-stable', :group => :development
+#gem 'activeadmin', :git => 'https://github.com/gregbell/active_admin.git', :branch => 'master', :group => :development
+#gem "meta_search",    '>= 1.1.0.pre', :group => :development
+#gem 'inherited_resources', :group => :development
+#gem 'uglifier', :group => :development
 
