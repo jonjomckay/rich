@@ -29,7 +29,7 @@ module RailsAdmin::Config::Fields::Types
         if (true if Float(value) rescue false)
           # if the value is numeric we assume its an object id
           rich_file = Rich::RichFile.find(value)
-          rich_file.rich_file.url(:rich_thumb)
+          rich_file.rich_file.url(:thumb)
         else
           # if not, we assume its a url
           value.to_s

@@ -41,7 +41,7 @@ private
         column_type = column_for(method).type
         if column_type == :integer
           file = Rich::RichFile.find(method_value)
-          file.rich_file.url(:rich_thumb) #we ask paperclip directly for the file, so asset paths should not be an issue
+          file.rich_file.url(:thumb) #we ask paperclip directly for the file, so asset paths should not be an issue
         else # should be :string
           method_value
         end
